@@ -79,7 +79,7 @@ color: #353738;
   background-size: cover;
   width:100%;
   min-height:52vh;
-  padding: 3%;
+  padding: 9%;
 }
 
 .completed{
@@ -88,7 +88,7 @@ color: #353738;
   background-size: cover;
   width:100%;
   min-height:32vh;
-  padding: 3%;
+  padding: 9%;
 }
 
  h3{
@@ -110,7 +110,7 @@ button{
 padding: 0% 30px;
 weight: 70%;
 background-color: White;
-border: 2px solid black;
+border: 4px solid black;
 color: black;
 font-size: 14px;
 font-family: 'Raleway', sans-serif;

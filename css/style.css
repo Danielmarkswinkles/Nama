@@ -2,27 +2,37 @@
 * {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   font-size: 18px;
-    /* font styles for header and paragraph  */
-  border: 2px solid darkgreen;
-}
-
-body {
-    overflow: scroll;
+    /* font styles for header and paragraph
+  border: 2px solid darkgreen; */
 }
 
 nav a{
   color: #696969;
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Indie Flower', cursive;
-  padding: 3%;
+  padding: 0% 30px;
   text-decoration: none;
   max-width: 100%;
-}
+  }
 
-#nav{
-  position: relative;
-   left: 175px;
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 a:hover {
@@ -69,7 +79,7 @@ color: #353738;
   background-size: cover;
   width:100%;
   min-height:52vh;
-  padding: 2%;
+  padding: 3%;
 }
 
 .completed{
@@ -78,12 +88,13 @@ color: #353738;
   background-size: cover;
   width:100%;
   min-height:32vh;
-  padding: 2%;
+  padding: 3%;
 }
 
  h3{
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
+  font-weight: bold;
   color: white;
   text-align: center;
 }
@@ -107,6 +118,10 @@ font-weight: bold;
 height: 50px;
 line-height: 48px;
 letter-spacing: 4px;
+}
+
+.centerbutton {
+align:center;
 }
 
 button:hover{

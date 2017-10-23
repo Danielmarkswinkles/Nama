@@ -2,6 +2,7 @@
 * {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   font-size: 18px;
+  background-image: url('../img/gableslogowhite.png');
     /* font styles for header and paragraph
   border: 2px solid darkgreen; */
 }
@@ -118,6 +119,7 @@ font-weight: bold;
 height: 50px;
 line-height: 48px;
 letter-spacing: 4px;
+opacity:0;
 }
 
 .centerbutton {
@@ -127,6 +129,10 @@ align:center;
 button:hover{
   background-color: black;
   color: white;
+  opacity:1;
+}
+
+
 
 /* font styles for header and paragraph
 .difference h2{
